@@ -27,7 +27,13 @@ W
 o  
 r  
 l  
-d
+d  
+
+## *String*.split(*seperator): Splits a String into a list:  
+textString = ("Hello, I hope you had a good Day!")  
+splittedList = textString.split(',')  
+Output: ['Hello', ' I hope you had a good Day!']  
+
 
 
 
