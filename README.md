@@ -23,7 +23,6 @@ yourString = ("World")
 for i in yourString:  
 	print(i)  
 Output:  
-
 W  
 o  
 r  
