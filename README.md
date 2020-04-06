@@ -22,12 +22,12 @@ Output: P+y+t+h+o+n+T
 yourString = ("World")  
 for i in yourString:  
 	print(i)  
-Output:  
+Output:    
 W  
-o
-r
-l
-d
+o  
+r  
+l  
+d  
 
 
 
