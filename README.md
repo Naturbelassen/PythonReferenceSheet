@@ -1,36 +1,32 @@
-#Python Reference Sheet
+# Python Reference Sheet
 
 Sheet for python and its methods/functions
 
-list(*string*) - Takes a String as the argument and converts it into a list:  
-
+## list(*string*) - Takes a String as the argument and converts it into a list:  
 myString = ("Python")  
 myList = list(myString)  
 print(myList)  
 Output: ['P', 'y', 't', 'h', 'o', 'n']  
 
-*string*.append - Adds to the end of the List  
- 
+## *string*.append - Adds to the end of the List   
 myList.append('T')  
 print(myList)  
 Output: ['P', 'y', 't', 'h', 'o', 'n', 'T']  
 
-'*seperator*'.join(*Dictionary/List*) - Connect all items in a Tuple into a String:  
-
+## '*seperator*'.join(*Dictionary/List*) - Connect all items in a Tuple into a String:  
 myList = '+'.join(myList)  
 print(myList)  
 Output: P+y+t+h+o+n+T  
 
-for *iterator* in *List* - Traverses a String/Dictionary/List item by item:  
-
+## for *iterator* in *List* - Traverses a String/Dictionary/List item by item:  
 yourString = ("World")  
 for i in yourString:  
 	print(i)  
 Output: W  
-	o  
-	r  
-	l  
-	d  
+        o  
+        r  
+        l  
+        d  
 
 
 
@@ -44,7 +40,7 @@ Output: W
 
 
 
-##Misc  
+## Misc  
 
 
 Bind your Private Key to GitHub to use SSH when remote:  
