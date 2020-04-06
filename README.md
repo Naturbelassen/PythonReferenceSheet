@@ -2,37 +2,35 @@
 
 Sheet for python and its methods/functions
 
-list(*string*) - Takes a String as the argument and converts it into a list:
-myString = ("Python")
-myList = list(myString)
-print(myList)
-Output: ['P', 'y', 't', 'h', 'o', 'n']
+list(*string*) - Takes a String as the argument and converts it into a list:  
 
-*string*.append - Adds to the end of the List 
-myList.append('T')
-print(myList)
-Output: ['P', 'y', 't', 'h', 'o', 'n', 'T']
+myString = ("Python")  
+myList = list(myString)  
+print(myList)  
+Output: ['P', 'y', 't', 'h', 'o', 'n']  
 
-'*seperator*'.join(*Dictionary/List*) - Connect all items in a Tuple into a String:
-myList = '+'.join(myList)
-print(myList)
-Output: P+y+t+h+o+n+T
+*string*.append - Adds to the end of the List  
+ 
+myList.append('T')  
+print(myList)  
+Output: ['P', 'y', 't', 'h', 'o', 'n', 'T']  
 
-for *iterator* in *List* - Traverses a String/Dictionary/List item by item:
-yourString = ("World")
-for i in yourString:
-	print(i)
-Output: W
-	o
-	r
-	l
-	d
+'*seperator*'.join(*Dictionary/List*) - Connect all items in a Tuple into a String:  
 
+myList = '+'.join(myList)  
+print(myList)  
+Output: P+y+t+h+o+n+T  
 
+for *iterator* in *List* - Traverses a String/Dictionary/List item by item:  
 
-
-
-
+yourString = ("World")  
+for i in yourString:  
+	print(i)  
+Output: W  
+	o  
+	r  
+	l  
+	d  
 
 
 
@@ -40,9 +38,17 @@ Output: W
 
 
 
-##Misc
 
-Bind your Private Key to GitHub to use SSH when remote:
+
+
+
+
+
+##Misc  
+
+
+Bind your Private Key to GitHub to use SSH when remote:  
+
 1. Create new Repository
 2. Choose a Name for your Repository
 	Optional:
