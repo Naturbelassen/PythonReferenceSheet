@@ -34,6 +34,25 @@ textString = ("Hello, I hope you had a good Day!")
 splittedList = textString.split(',')  
 Output: ['Hello', ' I hope you had a good Day!']  
 
+## Change int type to str:  
+list1 = [1, 2 , 3, 'ppe', 'aab']
+newString = ''.join(str(i) for i in list1)  
+print(newString)  
+Output: 123ppeaab  
+
+## Find all numbers in a string:  
+import re  
+x = re.findall("\d", newString) 
+print(x)  
+Output: ['1', '2', '3']  
+
+## Change str to int:  
+intNumbersAgain = [int(p) for p in newString]  
+print(intNumbersAgain)  
+Output: [1, 2, 3]  
+
+##isinstance(x) type(x) 
+
 
 
 
