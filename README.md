@@ -53,11 +53,16 @@ Output: [1, 2, 3]
 
 ##isinstance(x) type(x) 
 
+## .count Function  
+# The count() method returns the number of elements with the specified value.  
+return len(walk) == 10 and walk.count('n') == walk.count('s') and walk.count('w') == walk.count('e')
 
 
-
-
-
+## .counter Function  
+from collections import Counter
+z = ['blue', 'red', 'blue', 'yellow', 'blue', 'red']  
+Counter(z)  
+Counter({'blue': 3, 'red': 2, 'yellow': 1})  
 
 
 
